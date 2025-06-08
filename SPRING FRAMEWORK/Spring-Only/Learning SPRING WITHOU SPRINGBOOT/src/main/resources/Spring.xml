@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--// autowiring in spring -->
+    <bean id ="DEV" class="org.example.DEV" autowire="byName">
+<!--        <property name="com" ref="lap1"/>-->
+    </bean>
+
+
+    <bean id ="com" class="org.example.laptop">
+            </bean>
+
+    <bean id ="desk" class="org.example.desktop">
+    </bean>
+
+
+<!--  // Learning DI  -->
+<!--   <bean id ="DEV" class="org.example.DEV">-->
+<!--          // setter injection&ndash;&gt;-->
+<!--<property name="age" value="12"/>-->
+<!--       &lt;!&ndash;  // constructor injection&ndash;&gt;-->
+<!--       <constructor-arg value="14"/>-->
+<!--   </bean>-->
+<!--    <bean id ="laptop" class="org.example.laptop">-->
+<!--   </bean>-->
+
+
+
+
+
+</beans>

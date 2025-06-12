@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayMethods_4/ArrayMethods_4.iml" filepath="$PROJECT_DIR$/ArrayMethods_4/ArrayMethods_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserInput_And_ArraysWithMethods_2/ArraysWithMethods/ArraysWithMethods.iml" filepath="$PROJECT_DIR$/UserInput_And_ArraysWithMethods_2/ArraysWithMethods/ArraysWithMethods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BASICS_And_OPERATIONS_1/BASICS_And_OPERATIONS_1.iml" filepath="$PROJECT_DIR$/BASICS_And_OPERATIONS_1/BASICS_And_OPERATIONS_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BASICS_And_OPERATIONS_1/Declaration_Initialization_Access/Declaration_Initialization_Access.iml" filepath="$PROJECT_DIR$/BASICS_And_OPERATIONS_1/Declaration_Initialization_Access/Declaration_Initialization_Access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManualSearching_3/ManualSearching_3.iml" filepath="$PROJECT_DIR$/ManualSearching_3/ManualSearching_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BASICS_And_OPERATIONS_1/Modifying_And_Looping/Modifying_And_Looping.iml" filepath="$PROJECT_DIR$/BASICS_And_OPERATIONS_1/Modifying_And_Looping/Modifying_And_Looping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice.iml" filepath="$PROJECT_DIR$/Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserInput_And_ArraysWithMethods_2/UserInput/UserInput.iml" filepath="$PROJECT_DIR$/UserInput_And_ArraysWithMethods_2/UserInput/UserInput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserInput_And_ArraysWithMethods_2/UserInput_And_ArraysWithMethods_2.iml" filepath="$PROJECT_DIR$/UserInput_And_ArraysWithMethods_2/UserInput_And_ArraysWithMethods_2.iml" />
+    </modules>
+  </component>
+</project>

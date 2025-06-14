@@ -1,0 +1,143 @@
+
+============================================================
+
+🎯 JAVA ARRAY PRACTICE SET — TOPIC-WISE
+
+============================================================
+
+1. BASICS & OPERATIONS
+
+Declaration, Initialization, Access
+
+Declare an integer array of size 5 and print all elements.
+
+Create a String[] of names and print the second name.
+
+Print default values of a boolean array of size 3.
+
+============================================================
+
+Modifying & Looping
+
+4. Update the third element of an array to 99 and print it.
+5. Loop through a double[] using a classic for loop.
+6. Loop through an int[] using for-each and print sum of elements.
+
+============================================================
+
+2. UserInput_And_ArraysWithMethods
+
+User Input
+
+7. Take 5 integer inputs from user and store in an array.
+8. Take N names from the user and print them in reverse order.
+
+
+============================================================
+
+Arrays With Methods
+
+
+9. Write a method printArray(int[] arr) to print elements.
+10. Create a method that returns a double array with 3 values.
+
+============================================================-------------->>>>> completed till now
+
+3. ManualSearching
+
+Check if a given number exists in the array or not.
+
+Count how many times 5 appears in the array.
+
+Find the index of first occurrence of 10.
+
+Find the index of last occurrence of 10.
+
+============================================================
+
+4. ArrayMethods
+
+Copy a 3-element array into a 5-length array using copyOf.
+
+Clone an array and change the original. Check if clone changes.
+
+Fill a string array with "Hello" and print it.
+
+Compare two arrays using Arrays.equals().
+
+Print an array of characters using Arrays.toString().
+
+
+
+============================================================
+
+5.---------->>>>> completed above questions
+
+
+===========================================
+
+Reamaning to do are below questions------
+
+====================================
+
+
+
+1. Manual Operations & Manipulations
+
+Reverse an integer array in place (without extra array).
+
+Rotate an array to the right by k positions.
+
+Rotate an array to the left by k positions.
+
+Remove all occurrences of a given element from the array and print the resulting array.
+
+Replace all occurrences of one number with another number.
+
+-------------------------------------------------------------------------------------------------------
+
+2. Counting & Summarizing
+
+Count how many elements are greater than a given number.
+
+Find the second largest element in an array.
+
+Calculate sum of elements at even indices and odd indices separately.
+
+Find the average of elements in an array.
+
+-------------------------------------------------------------------------------------------------------
+
+
+3. Array Utility Practice (Manual + API)
+
+Manually copy the first N elements of one array into a new array (without Arrays.copyOf()).
+
+Manually fill an array with a specific value (without using Arrays.fill()).
+
+Manually compare two arrays element by element (without Arrays.equals()).
+
+Convert a char[] array to a String explicitly (new String(charArray)).
+
+-------------------------------------------------------------------------------------------------------
+
+4. Arrays with Methods
+
+Write a method to concatenate two integer arrays and return the combined array.
+
+Write a method that takes two arrays and prints the common elements.
+
+Write a method to find and return the index of the maximum element in an array.
+
+Write a method to check if an array is sorted in ascending order.
+
+
+-------------------------------------------------------------------------------------------------------
+
+5. Edge Cases & Validation
+
+Handle and print appropriate messages for empty arrays or null arrays in all your methods.
+
+Take input from user for array size and elements, then print only elements greater than a user-entered threshold.
+
+-------------------------------------------------------------------------------------------------------

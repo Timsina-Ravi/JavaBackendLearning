@@ -1,0 +1,80 @@
+
+
+
+
+                 2D ARRY QUESTIONS TO PRACTICE
+
+
+
+ 🔹 1. Basics & Traversal
+
+ 1.1 Declare and Print a 2D Array
+
+Declare a 2D array and print its elements:
+
+* Row-wise
+* Column-wise
+
+
+
+ 1.2 Sum of All Elements
+
+Write a method to calculate and return the sum of all elements in a 2D array.
+
+
+
+ 1.3 Maximum and Minimum Element
+
+Write a method to find and print the maximum and minimum element in a 2D array.
+
+
+
+ 🔹 2. Row and Column Operations
+
+ 2.1 Row-Wise Sum
+
+Print the sum of each row in a 2D array.
+
+
+
+ 2.2 Column-Wise Sum
+
+Print the sum of each column in a 2D array.
+
+
+
+ 🔹 3. Searching & Counting
+
+ 3.1 Search for a Number
+
+Check whether a specific number exists in a 2D array (return true/false).
+
+
+
+ 3.2 Count Occurrences
+
+Count how many times a specific number appears in a 2D array.
+
+
+
+ 🔹 4. Data Manipulation
+
+ 4.1 Replace All Occurrences
+
+Replace all occurrences of a specific number in a 2D array with another number.
+
+
+
+ 🔹 5. Edge Cases & Input Handling
+
+ 5.1 Handle Null or Empty Arrays
+
+Handle and print appropriate messages for null or empty 2D arrays.
+
+
+
+ 5.2 Take Input from User
+
+Take input for a 2D array from the user (rows, columns, values), then print the array row-wise.
+
+

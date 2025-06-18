@@ -1,0 +1,90 @@
+
+
+
+# 🎯 JAVA STRINGS PRACTICE SET — TOPIC-WISE
+
+
+
+ 1. STRING CREATION & INITIALIZATION
+
+ Declare a string using a string literal and print it.
+ Declare a string using the `new String()` constructor and print it.
+ Print an empty string and explain what happens.
+ Assign `null` to a string variable and print it.
+
+
+
+ 2. STRING LENGTH & CHARACTER ACCESS
+
+ Find and print the length of a string using `.length()`.
+ Print the first and last characters of a string using `.charAt()`.
+ Loop through all characters in a string using a `for` loop and print them one by one.
+ Loop through all characters using `toCharArray()` and enhanced for loop.
+
+
+
+ 3. STRING CONCATENATION
+
+ Concatenate two strings using the `+` operator and print the result.
+ Concatenate two strings using the `.concat()` method and print the result.
+ Concatenate a string and a number using `+` and explain the result.
+ Combine multiple strings and other data types in a sentence and print.
+
+
+
+ 4. STRING COMPARISON
+
+ Compare two string literals using `==` and explain the result.
+ Compare two strings using `.equals()` and explain why it differs from `==`.
+ Compare strings ignoring case using `.equalsIgnoreCase()`.
+ Compare two strings created with `new String()` using `==` and `.equals()`.
+
+
+
+ 5. STRING MODIFICATION METHODS
+
+ Trim whitespace from the start and end of a string using `.trim()`.
+ Replace all spaces in a string with underscores using `.replace()`.
+ Replace all vowels with `` using `.replaceAll()` and regex.
+ Convert a string to uppercase using `.toUpperCase()`.
+ Convert a string to lowercase using `.toLowerCase()`.
+
+
+
+ 6. SUBSTRING & SEARCHING
+
+ Extract a substring from a given string using `.substring()`.
+ Find the index of the first occurrence of a character using `.indexOf()`.
+ Find the index of the last occurrence of a character using `.lastIndexOf()`.
+ Check if a string contains a substring using `.contains()`.
+ Check if a string starts with a prefix using `.startsWith()`.
+ Check if a string ends with a suffix using `.endsWith()`.
+
+
+
+ 7. STRING SPLITTING & JOINING
+
+ Split a sentence into words using `.split(" ")`.
+ Split a CSV string into fields using `.split(",")`.
+ Join an array of strings into a single string using `String.join()`.
+
+
+
+ 8. STRING TO OTHER TYPES & FORMAT
+
+ Convert an integer to a string using `String.valueOf()`.
+ Convert a string representing a number to an integer using `Integer.parseInt()`.
+ Format a string using `String.format()` to include variables.
+
+
+
+ 9. LOGIC & PRACTICE PROBLEMS (Advanced)
+
+ Reverse a string without using built-in reverse methods.
+ Check if a string is a palindrome.
+ Count vowels and consonants in a string.
+ Remove duplicate characters from a string.
+ Compress a string like `"aaabb"` → `"a3b2"`.
+ Capitalize the first letter of each word in a sentence.
+
+

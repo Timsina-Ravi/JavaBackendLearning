@@ -1,0 +1,34 @@
+
+ 📘 1. StringBuilder Basics
+
+ ➤ Creating and Initializing
+
+1. Create an empty `StringBuilder'.
+2. Create a `StringBuilder` with an initial string
+3. Check the length and capacity of a `StringBuilder`
+
+ ➤ Appending Data
+
+4. Append a string, integer, and boolean to a `StringBuilder`.
+5. Chain multiple `append()` calls together in one statement.
+
+
+
+ 🛠️ 2. Modifying Content
+
+ ➤ Inserting and Replacing
+
+6. Insert a string at the beginning, middle, and end of a `StringBuilder`.
+7. Replace a portion of the string with another string.
+
+ ➤ Deleting and Clearing
+
+8. Delete characters from index 2 to 5.
+9. Delete a single character at a specific index.
+10. Clear a `StringBuilder` to reuse it again.
+
+ ➤ Reversing and Updating
+
+11. Reverse the entire contents of a `StringBuilder`.
+12. Change the character at a specific index.
+

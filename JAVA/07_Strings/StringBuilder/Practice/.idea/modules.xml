@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_StringBuilder_Basics/01_Creating_and_Initializing/01_Creating_and_Initializing.iml" filepath="$PROJECT_DIR$/01_StringBuilder_Basics/01_Creating_and_Initializing/01_Creating_and_Initializing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Modifying_Content/01_Inserting_and_Replacing/01_Inserting_and_Replacing.iml" filepath="$PROJECT_DIR$/02_Modifying_Content/01_Inserting_and_Replacing/01_Inserting_and_Replacing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_StringBuilder_Basics/01_StringBuilder_Basics.iml" filepath="$PROJECT_DIR$/01_StringBuilder_Basics/01_StringBuilder_Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_StringBuilder_Basics/02_Appending_Data/02_Appending_Data.iml" filepath="$PROJECT_DIR$/01_StringBuilder_Basics/02_Appending_Data/02_Appending_Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Modifying_Content/02_Deleting_and_Clearing/02_Deleting_and_Clearing.iml" filepath="$PROJECT_DIR$/02_Modifying_Content/02_Deleting_and_Clearing/02_Deleting_and_Clearing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Modifying_Content/02_Modifying_Content.iml" filepath="$PROJECT_DIR$/02_Modifying_Content/02_Modifying_Content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Modifying_Content/03_Reversing_and_Updating/03_Reversing_and_Updating.iml" filepath="$PROJECT_DIR$/02_Modifying_Content/03_Reversing_and_Updating/03_Reversing_and_Updating.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Practice.iml" filepath="$PROJECT_DIR$/.idea/Practice.iml" />
+    </modules>
+  </component>
+</project>

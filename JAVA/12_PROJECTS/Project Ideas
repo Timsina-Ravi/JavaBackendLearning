@@ -1,0 +1,324 @@
+
+ LEVEL 1 – Basic Projects
+
+
+
+ 1️⃣ Student Directory (ArrayList)
+
+Description:
+A console-based app where an admin can manage student records for a class.
+
+Core Features:
+
+===>>> Add student (name, roll number, course)
+===>>> Remove student by roll number
+===>>> Search by roll number
+===>>> List all students
+
+Data Structure: `ArrayList<Student>`
+Custom Exception: `StudentNotFoundException`
+Suggested Classes & Methods:
+
+===>>> `class Student { String name; int rollNo; String course; }`
+===>>> `addStudent(Student s)`
+===>>> `removeStudent(int rollNo)`
+===>>> `searchStudent(int rollNo)`
+===>>> `listStudents()`
+
+Extra Ideas: Sort students by roll number before listing.
+
+
+
+ 2️⃣ Task Manager (LinkedList)
+
+Description:
+Manage a personal to-do list in order of creation.
+
+Core Features:
+
+===>>> Add task (task name, priority number)
+===>>> Mark as completed (remove from list)
+===>>> View all pending tasks
+
+Data Structure: `LinkedList<Task>`
+Custom Exception: `EmptyTaskListException`
+Suggested Classes & Methods:
+
+===>>> `class Task { String name; int priority; }`
+===>>> `addTask(Task t)`
+===>>> `completeTask(int index)`
+===>>> `listTasks()`
+
+Extra Ideas: Allow “high priority” tasks to be inserted at the start of the list.
+
+
+
+ 3️⃣ Contact Book (HashMap)
+
+Description:
+Phonebook app where each contact’s name maps to their phone number.
+
+Core Features:
+
+===>>> Add contact (name → number)
+===>>> Search by name
+===>>> Update number
+===>>> Delete contact
+
+Data Structure: `HashMap<String, String>`
+Custom Exception: `ContactNotFoundException`
+Suggested Methods:
+
+===>>> `addContact(String name, String number)`
+===>>> `searchContact(String name)`
+===>>> `updateContact(String name, String number)`
+===>>> `removeContact(String name)`
+
+Extra Ideas: Prevent duplicate names, ask before overwriting.
+
+
+
+ 4️⃣ Unique Word Tracker (HashSet)
+
+Description:
+Track unique words entered by the user (like a vocabulary tracker).
+
+Core Features:
+
+===>>> Add word (duplicates ignored automatically)
+===>>> Check if word exists
+===>>> View all words
+
+Data Structure: `HashSet<String>`
+Custom Exception: `WordNotFoundException`
+Suggested Methods:
+
+===>>> `addWord(String word)`
+===>>> `checkWord(String word)`
+===>>> `listWords()`
+
+Extra Ideas: Show total word count and sort before displaying.
+
+
+
+ 5️⃣ Emergency Room Queue (PriorityQueue)
+
+Description:
+Patients are treated based on severity level (1 highest priority).
+
+Core Features:
+
+===>>> Add patient (name, severity)
+===>>> View next patient
+===>>> Remove next patient after treatment
+
+Data Structure: `PriorityQueue<Patient>` (custom comparator)
+Custom Exception: `NoPatientsException`
+Suggested Classes & Methods:
+
+===>>> `class Patient { String name; int severity; }`
+===>>> `addPatient(Patient p)`
+===>>> `peekNextPatient()`
+===>>> `treatNextPatient()`
+
+Extra Ideas: Track total patients treated today.
+
+======================================================================
+
+ LEVEL 2 – Intermediate Projects
+
+
+
+ 6️⃣ Library System (ArrayList + HashMap)
+
+Description:
+Library with books and members, borrowing system.
+
+Core Features:
+
+===>>> Add books (`ArrayList<Book>`)
+===>>> Add members (`HashMap<Integer, Member>`)
+===>>> Borrow book (mark borrowed)
+
+Custom Exception: `BookNotAvailableException`
+Suggested Methods:
+
+===>>> `addBook(Book b)`
+===>>> `addMember(Member m)`
+===>>> `borrowBook(int bookId, int memberId)`
+
+Extra Ideas: Return book feature.
+
+
+
+ 7️⃣ Bank Management (HashMap + LinkedList)
+
+Description:
+Manage accounts with transaction history.
+
+Core Features:
+
+===>>> Create account (accNo → Account)
+===>>> Deposit/withdraw
+===>>> View transaction history (LinkedList<Transaction>)
+
+Custom Exception: `InsufficientFundsException`
+Suggested Methods:
+
+===>>> `createAccount(Account a)`
+===>>> `deposit(int accNo, double amount)`
+===>>> `withdraw(int accNo, double amount)`
+===>>> `getTransactionHistory(int accNo)`
+
+
+
+ 8️⃣ Event Registration (HashSet + ArrayList)
+
+Description:
+Track unique participants for events.
+
+Core Features:
+
+===>>> Add participant (no duplicates)
+===>>> View participants sorted
+===>>> Remove participant
+
+Custom Exception: `ParticipantNotFoundException`
+Suggested Methods:
+
+===>>> `addParticipant(String name)`
+===>>> `removeParticipant(String name)`
+===>>> `listParticipants()`
+
+
+
+ 9️⃣ Online Shopping Cart (HashMap + ArrayList)
+
+Description:
+Manage product catalog and shopping cart.
+
+Core Features:
+
+===>>> Add products (productId → Product)
+===>>> Add/remove from cart (`ArrayList<Product>`)
+===>>> View bill
+
+Custom Exception: `ProductNotFoundException`
+Suggested Methods:
+
+===>>> `addProduct(Product p)`
+===>>> `addToCart(int productId)`
+===>>> `removeFromCart(int productId)`
+===>>> `calculateBill()`
+
+
+
+ 🔟 Flight Check-in System (PriorityQueue + HashSet)
+
+Description:
+Manage boarding order based on travel class.
+
+Core Features:
+
+===>>> Add passenger (`HashSet` for unique)
+===>>> Priority boarding (`PriorityQueue` for order)
+===>>> Remove after boarding
+
+Custom Exception: `PassengerNotFoundException`
+Suggested Methods:
+
+===>>> `addPassenger(Passenger p)`
+===>>> `getNextPassenger()`
+===>>> `boardNextPassenger()`
+
+========================================================================
+
+
+ LEVEL 3 – Advanced Projects
+
+
+
+ 1️⃣1️⃣ Tournament Scoreboard (HashMap + PriorityQueue)
+
+Description:
+Track player scores and rankings.
+
+Core Features:
+
+===>>> Add player (name → score)
+===>>> Update score
+===>>> Show ranking
+
+Custom Exception: `PlayerNotFoundException`
+Suggested Methods:
+
+===>>> `addPlayer(Player p)`
+===>>> `updateScore(String name, int score)`
+===>>> `showLeaderboard()`
+
+
+
+ 1️⃣2️⃣ City Bus Reservation (ArrayList + HashSet)
+
+Description:
+Book bus seats without duplicates.
+
+Core Features:
+
+===>>> Book seat (`HashSet` for booked seats)
+===>>> Cancel booking
+===>>> Show available seats (`ArrayList`)
+
+Custom Exception: `SeatAlreadyBookedException`
+Suggested Methods:
+
+===>>> `bookSeat(int seatNo)`
+===>>> `cancelSeat(int seatNo)`
+===>>> `listAvailableSeats()`
+
+
+
+ 1️⃣3️⃣ Movie Ticket Booking (LinkedList + HashMap)
+
+Description:
+Manage movie shows and seat bookings.
+
+Core Features:
+
+===>>> Show list (`LinkedList<Show>`)
+===>>> Book seat (`HashMap<Show, HashSet<Integer>>`)
+===>>> Cancel booking
+
+Custom Exceptions: `ShowNotFoundException`, `SeatUnavailableException`
+
+
+
+ 1️⃣4️⃣ Job Scheduler (PriorityQueue + HashSet)
+
+Description:
+Schedule jobs by priority.
+
+Core Features:
+
+===>>> Add job (jobId, description, priority)
+===>>> Process next job
+===>>> Prevent duplicate IDs (`HashSet`)
+
+Custom Exception: `NoJobsException`
+
+
+
+ 1️⃣5️⃣ Social Media Friend Network (HashMap + HashSet)
+
+Description:
+Track friendships for each user.
+
+Core Features:
+
+===>>> Add/remove friends
+===>>> Show mutual friends
+===>>> Search for user
+
+Custom Exception: `UserNotFoundException`
+
+
